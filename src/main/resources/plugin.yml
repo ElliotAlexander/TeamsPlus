@@ -1,0 +1,11 @@
+name: TeamsPlus
+version: 1.0.1
+main: TeamsPlus
+commands:
+  aggregate:
+    usage: /aggregate
+    description: Teleports all team members to a random member of that team.
+    permission: aggregate.main
+  pm:
+    usage: /pm <message>
+    description: Sends a private message to the members of your team.
